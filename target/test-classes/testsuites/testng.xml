@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+
+<suite name="Amazon Cart Test" verbose="1" parallel="methods" thread-count="1">
+
+    <listeners>
+        <listener class-name="utils.TestUtilities" />
+
+    </listeners>
+
+    <test name="hub spot regression Test">
+        <classes>
+            <class name="AmazonCartTests" />
+        </classes>
+    </test>
+</suite>

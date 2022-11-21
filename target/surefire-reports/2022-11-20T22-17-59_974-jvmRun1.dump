@@ -1,0 +1,15 @@
+# Created at 2022-11-20T22:18:01.514
+java.lang.ClassCastException: class utils.TestUtilities cannot be cast to class org.testng.ITestNGListener (utils.TestUtilities and org.testng.ITestNGListener are in unnamed module of loader 'app')
+	at org.testng.TestNG.addListeners(TestNG.java:994)
+	at org.testng.TestNG.initializeConfiguration(TestNG.java:950)
+	at org.testng.TestNG.initializeEverything(TestNG.java:1041)
+	at org.testng.TestNG.run(TestNG.java:1052)
+	at org.apache.maven.surefire.testng.TestNGExecutor.run(TestNGExecutor.java:284)
+	at org.apache.maven.surefire.testng.TestNGXmlTestSuite.execute(TestNGXmlTestSuite.java:75)
+	at org.apache.maven.surefire.testng.TestNGProvider.invoke(TestNGProvider.java:119)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:428)
+	at org.apache.maven.surefire.booter.ForkedBooter.execute(ForkedBooter.java:162)
+	at org.apache.maven.surefire.booter.ForkedBooter.run(ForkedBooter.java:562)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:548)
+
+
