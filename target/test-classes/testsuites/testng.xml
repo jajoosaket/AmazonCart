@@ -6,10 +6,9 @@
 
     <listeners>
         <listener class-name="utils.TestUtilities" />
-
     </listeners>
 
-    <test name="hub spot regression Test">
+    <test name="Amazon Cart Test">
         <classes>
             <class name="AmazonCartTests" />
         </classes>

@@ -98,12 +98,12 @@ public class AmazonCartPage extends TestUtilities {
             String priceLocator=getResultLocator+fetchPriceFromResult;
             List<WebElement> productPrice = driver.findElements(By.xpath(priceLocator));
 
-            if(productNames.size() == productStar.size()){
-                return null;
-            }
-            if(productNames.size() != productPrice.size()){
-                return null;
-            }
+//            if(productNames.size() != productStar.size()){
+//                return null;
+//            }
+//            if(productNames.size() != productPrice.size()){
+//                return null;
+//            }
 
             String jsonString= "";
             for(int i=0;i<productNames.size();i++){
