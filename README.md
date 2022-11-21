@@ -27,13 +27,12 @@ This is a sample project using page object model framework using selenium with j
 
 
 A sample screenshot of failed run
-![](../../../../var/folders/vs/_q31z43553j69x65l8_3j5yh0000gn/T/TemporaryItems/NSIRD_screencaptureui_kj3JKM/Screenshot 2022-11-21 at 10.50.19 PM.png)
-
+![](src/test/resources/readme_screenshots/failedRunSS.png)
 A sample screenshot of passed run
-![](../../../../var/folders/vs/_q31z43553j69x65l8_3j5yh0000gn/T/TemporaryItems/NSIRD_screencaptureui_ezGh9s/Screenshot 2022-11-21 at 10.52.52 PM.png)
+![](src/test/resources/readme_screenshots/passedRunSS.png)
 
-Screenshot of json file where Products Name , Price and Star in the first page are store![](../../../../var/folders/vs/_q31z43553j69x65l8_3j5yh0000gn/T/TemporaryItems/NSIRD_screencaptureui_APhf0u/Screenshot 2022-11-21 at 10.53.50 PM.png)
-
+Screenshot of json file where Products Name , Price and Star in the first page are store
+![](src/test/resources/readme_screenshots/jsonFileSS.png)
 
 Screenshot of logs 
-![](../../../../var/folders/vs/_q31z43553j69x65l8_3j5yh0000gn/T/TemporaryItems/NSIRD_screencaptureui_4OA2HY/Screenshot 2022-11-21 at 11.04.01 PM.png)
+![](src/test/resources/readme_screenshots/logsSS.png)
